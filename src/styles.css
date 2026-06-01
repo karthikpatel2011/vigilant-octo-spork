@@ -103,6 +103,9 @@
     font-variation-settings: "opsz" 96, "SOFT" 50;
   }
   h1 { font-variation-settings: "opsz" 144, "SOFT" 30; letter-spacing: -0.03em; }
+}
+
+
 
 
 @layer utilities {
