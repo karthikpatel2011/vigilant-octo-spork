@@ -69,6 +69,7 @@ function Index() {
         <FAQ />
       </main>
       <Footer />
+      <ChatWidget />
     </div>
   );
 }
