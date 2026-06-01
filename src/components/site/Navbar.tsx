@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import logo from "@/assets/amrita-logo.png";
+import logoAsset from "@/assets/amrita-logo-new.png.asset.json";
+const logo = logoAsset.url;
 
 const NAV = [
   { id: "home", label: "Home" },
