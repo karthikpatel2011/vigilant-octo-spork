@@ -57,6 +57,7 @@ function Index() {
       <Ticker />
       <main>
         <Hero />
+        <Chancellor />
         <Academics />
         <Clubs />
         <Quiz />
