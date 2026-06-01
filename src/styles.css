@@ -81,6 +81,9 @@
   --border: oklch(0.3 0.01 20);
   --input: oklch(0.3 0.01 20);
   --ring: oklch(0.62 0.16 18);
+  --gold: oklch(0.85 0.16 82);
+  --saffron: oklch(0.78 0.18 55);
+  --leaf: oklch(0.68 0.14 145);
 }
 
 @layer base {
