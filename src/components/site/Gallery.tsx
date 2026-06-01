@@ -1,13 +1,13 @@
-import processionAsset from "@/assets/procession.png.asset.json";
-import concertAsset from "@/assets/concert.png.asset.json";
-import dancerAsset from "@/assets/dancer.png.asset.json";
-import troupeAsset from "@/assets/troupe.png.asset.json";
+import processionImg from "@/assets/procession.png";
+import concertImg from "@/assets/concert.png";
+import dancerImg from "@/assets/dancer.png";
+import troupeImg from "@/assets/troupe.png";
 import { SectionHeading } from "./SectionHeading";
 import { TiltImage } from "./TiltImage";
 
 const SHOTS = [
   {
-    src: processionAsset.url,
+    src: processionImg,
     alt: "Amrita students in traditional dress performing a temple procession",
     label: "Onam Procession",
     caption: "Festival mornings on campus — colour, drums, and devotion.",
@@ -15,7 +15,7 @@ const SHOTS = [
     span: "md:col-span-7 md:row-span-2 aspect-[4/5] md:aspect-auto",
   },
   {
-    src: concertAsset.url,
+    src: concertImg,
     alt: "Playback singer performing at the Amrita Amaravati annual fest",
     label: "Anokha · Headliner Night",
     caption: "Pro-night artists. The whole campus shows up.",
@@ -23,7 +23,7 @@ const SHOTS = [
     span: "md:col-span-5 aspect-[5/4]",
   },
   {
-    src: dancerAsset.url,
+    src: dancerImg,
     alt: "Amrita student performing a solo classical dance under stage lights",
     label: "Solo Performance",
     caption: "Solo spots open every semester — auditions, no gatekeeping.",
@@ -31,7 +31,7 @@ const SHOTS = [
     span: "md:col-span-5 aspect-[5/6]",
   },
   {
-    src: troupeAsset.url,
+    src: troupeImg,
     alt: "Amrita student dance troupe after a stage performance",
     label: "The Troupe",
     caption: "The friends you'll keep. Backstage after curtain call.",

@@ -1,5 +1,4 @@
-import logoAsset from "@/assets/amrita-logo-new.png.asset.json";
-const logo = logoAsset.url;
+import logo from "@/assets/amrita-logo-new.png";
 
 const LINKS = ["Home", "Academics", "Clubs", "Hostel Life", "Survival Kit", "Resources"];
 

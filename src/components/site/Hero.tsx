@@ -1,4 +1,4 @@
-import campusAsset from "@/assets/campus.png.asset.json";
+import campusImg from "@/assets/campus.png";
 import { TiltImage } from "./TiltImage";
 
 export function Hero() {
@@ -72,7 +72,7 @@ export function Hero() {
             }}
           />
           <TiltImage
-            src={campusAsset.url}
+            src={campusImg}
             alt="Amrita Vishwa Vidyapeetham, Amaravati campus"
             className="aspect-[21/9] border hairline shadow-2xl"
             overlay={

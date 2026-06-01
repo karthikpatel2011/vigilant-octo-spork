@@ -1,4 +1,4 @@
-import culturalsAsset from "@/assets/culturals.png.asset.json";
+import culturalsImg from "@/assets/culturals.png";
 import { SectionHeading } from "./SectionHeading";
 import { TiltImage } from "./TiltImage";
 
@@ -26,7 +26,7 @@ export function Clubs() {
         {/* Cultural night marquee */}
         <div className="mb-12 grid gap-6 md:grid-cols-[1.2fr_1fr] md:items-stretch">
           <TiltImage
-            src={culturalsAsset.url}
+            src={culturalsImg}
             alt="Amrita students performing at the annual cultural night"
             className="aspect-[4/3] md:aspect-auto border hairline shadow-xl"
             overlay={

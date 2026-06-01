@@ -29,61 +29,65 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
   --font-serif: "Fraunces", "Cormorant Garamond", Georgia, ui-serif, serif;
-  --font-sans: "Inter Tight", "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --font-sans: "Geist Sans", "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
 }
 
 :root {
-  --radius: 0.5rem;
-  /* Campus Compass — Amrita maroon palette */
-  --background: oklch(1 0 0);                    /* #FFFFFF */
-  --foreground: oklch(0.18 0 0);                 /* #1A1A1A */
+  --radius: 0.625rem;
+  /* Campus Compass — vibrant Amrita palette */
+  --background: oklch(0.99 0.006 80);            /* warm cream white */
+  --foreground: oklch(0.14 0.02 20);             /* near-black warm */
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.18 0 0);
+  --card-foreground: oklch(0.14 0.02 20);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.18 0 0);
-  --primary: oklch(0.39 0.13 18);                /* #8B1A35 deep maroon */
+  --popover-foreground: oklch(0.14 0.02 20);
+  --primary: oklch(0.44 0.21 18);                /* vivid crimson-maroon */
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.953 0.012 60);            /* #F5F0EB warm off-white */
-  --secondary-foreground: oklch(0.18 0 0);
-  --muted: oklch(0.953 0.012 60);
-  --muted-foreground: oklch(0.45 0.01 30);
-  --accent: oklch(0.953 0.012 60);
-  --accent-foreground: oklch(0.39 0.13 18);
-  --destructive: oklch(0.577 0.245 27.325);
+  --secondary: oklch(0.94 0.03 75);              /* warm saffron-tinted cream */
+  --secondary-foreground: oklch(0.14 0.02 20);
+  --muted: oklch(0.94 0.03 75);
+  --muted-foreground: oklch(0.48 0.04 35);
+  --accent: oklch(0.91 0.07 80);                 /* golden accent tint */
+  --accent-foreground: oklch(0.36 0.18 18);
+  --destructive: oklch(0.58 0.25 27);
   --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.92 0.005 60);
-  --input: oklch(0.92 0.005 60);
-  --ring: oklch(0.39 0.13 18);
-  /* Brighter accents drawn from the Amrita emblem */
-  --gold: oklch(0.82 0.14 82);                   /* warm saffron-gold */
-  --saffron: oklch(0.75 0.18 55);                /* deep saffron */
-  --leaf: oklch(0.62 0.13 145);                  /* muted campus green */
+  --border: oklch(0.88 0.02 75);
+  --input: oklch(0.88 0.02 75);
+  --ring: oklch(0.44 0.21 18);
+  /* Rich accent colours */
+  --gold: oklch(0.80 0.19 78);                   /* bright saffron-gold */
+  --saffron: oklch(0.70 0.22 48);                /* vivid deep saffron */
+  --leaf: oklch(0.60 0.18 148);                  /* bright campus green */
+  --sky: oklch(0.68 0.16 240);                   /* bright blue accent */
+  --rose: oklch(0.62 0.22 6);                    /* rose/pink accent */
 }
 
 .dark {
-  --background: oklch(0.16 0.01 20);             /* near-black with warm tint */
-  --foreground: oklch(0.96 0.005 60);
-  --card: oklch(0.21 0.012 20);
-  --card-foreground: oklch(0.96 0.005 60);
-  --popover: oklch(0.21 0.012 20);
-  --popover-foreground: oklch(0.96 0.005 60);
-  --primary: oklch(0.62 0.16 18);                /* lighter maroon for contrast */
+  --background: oklch(0.13 0.02 260);            /* deep indigo-dark */
+  --foreground: oklch(0.97 0.006 80);
+  --card: oklch(0.18 0.025 260);
+  --card-foreground: oklch(0.97 0.006 80);
+  --popover: oklch(0.18 0.025 260);
+  --popover-foreground: oklch(0.97 0.006 80);
+  --primary: oklch(0.68 0.22 18);                /* bright vivid maroon on dark */
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.25 0.012 20);
-  --secondary-foreground: oklch(0.96 0.005 60);
-  --muted: oklch(0.25 0.012 20);
-  --muted-foreground: oklch(0.72 0.01 60);
-  --accent: oklch(0.27 0.02 20);
-  --accent-foreground: oklch(0.96 0.005 60);
-  --destructive: oklch(0.62 0.2 25);
+  --secondary: oklch(0.22 0.03 260);
+  --secondary-foreground: oklch(0.97 0.006 80);
+  --muted: oklch(0.22 0.03 260);
+  --muted-foreground: oklch(0.70 0.02 80);
+  --accent: oklch(0.26 0.05 270);
+  --accent-foreground: oklch(0.97 0.006 80);
+  --destructive: oklch(0.65 0.22 25);
   --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.3 0.01 20);
-  --input: oklch(0.3 0.01 20);
-  --ring: oklch(0.62 0.16 18);
-  --gold: oklch(0.85 0.16 82);
-  --saffron: oklch(0.78 0.18 55);
-  --leaf: oklch(0.68 0.14 145);
+  --border: oklch(0.28 0.03 260);
+  --input: oklch(0.28 0.03 260);
+  --ring: oklch(0.68 0.22 18);
+  --gold: oklch(0.86 0.19 78);
+  --saffron: oklch(0.80 0.22 48);
+  --leaf: oklch(0.72 0.20 148);
+  --sky: oklch(0.76 0.18 240);
+  --rose: oklch(0.74 0.22 6);
 }
 
 @layer base {

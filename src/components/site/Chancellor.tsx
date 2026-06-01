@@ -1,4 +1,4 @@
-import ammaAsset from "@/assets/amma.png.asset.json";
+import ammaImg from "@/assets/amma.png";
 import { SectionHeading } from "./SectionHeading";
 
 export function Chancellor() {
@@ -49,7 +49,7 @@ export function Chancellor() {
             />
             <div className="overflow-hidden rounded-full bg-secondary aspect-square">
               <img
-                src={ammaAsset.url}
+                src={ammaImg}
                 alt="Mata Amritanandamayi Devi, Chancellor of Amrita Vishwa Vidyapeetham"
                 className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
                 loading="lazy"
