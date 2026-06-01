@@ -13,6 +13,7 @@ import { Timeline } from "@/components/site/Timeline";
 import { Quiz } from "@/components/site/Quiz";
 import { FAQ } from "@/components/site/FAQ";
 import { Footer } from "@/components/site/Footer";
+import { ChatWidget } from "@/components/site/ChatWidget";
 
 export const Route = createFileRoute("/")({
   head: () => ({
