@@ -1,4 +1,7 @@
+import culturalsAsset from "@/assets/culturals.png.asset.json";
 import { SectionHeading } from "./SectionHeading";
+import { TiltImage } from "./TiltImage";
+
 
 const CLUBS = [
   { name: "Literary Club", tag: "Words & debate" },
