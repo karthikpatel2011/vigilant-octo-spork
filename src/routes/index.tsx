@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Navbar } from "@/components/site/Navbar";
 import { Ticker } from "@/components/site/Ticker";
 import { Hero } from "@/components/site/Hero";
+import { Chancellor } from "@/components/site/Chancellor";
 import { Academics } from "@/components/site/Academics";
 import { Clubs } from "@/components/site/Clubs";
 import { Hostel } from "@/components/site/Hostel";
@@ -56,6 +57,7 @@ function Index() {
       <Ticker />
       <main>
         <Hero />
+        <Chancellor />
         <Academics />
         <Clubs />
         <Quiz />
