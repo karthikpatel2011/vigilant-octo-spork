@@ -34,10 +34,10 @@ export function Navbar({ dark, onToggleDark }: { dark: boolean; onToggleDark: ()
     <header className="sticky top-0 z-50 w-full border-b hairline bg-background/85 backdrop-blur supports-[backdrop-filter]:bg-background/70">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3 md:px-8">
         <a href="#home" className="flex items-center gap-3">
-          <img src={logo} alt="Amrita Vishwa Vidyapeetham" width={40} height={40} className="h-10 w-10" />
+          <img src={logo} alt="Amrita Vishwa Vidyapeetham" width={40} height={40} className="h-10 w-10 rounded-sm object-cover" />
           <div className="leading-tight">
-            <div className="font-serif text-lg text-foreground">Campus Compass</div>
-            <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">Amrita · Amaravati</div>
+            <div className="font-serif text-lg text-foreground">Amrita Vishwa Vidyapeetham</div>
+            <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">Amaravati · Campus Compass</div>
           </div>
         </a>
 
