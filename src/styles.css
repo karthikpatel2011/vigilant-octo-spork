@@ -55,6 +55,10 @@
   --border: oklch(0.92 0.005 60);
   --input: oklch(0.92 0.005 60);
   --ring: oklch(0.39 0.13 18);
+  /* Brighter accents drawn from the Amrita emblem */
+  --gold: oklch(0.82 0.14 82);                   /* warm saffron-gold */
+  --saffron: oklch(0.75 0.18 55);                /* deep saffron */
+  --leaf: oklch(0.62 0.13 145);                  /* muted campus green */
 }
 
 .dark {
