@@ -23,7 +23,37 @@ export function Clubs() {
           intro="Clubs recruit freshers in August–September. Pick one, show up, and your college years change shape."
         />
 
-        {/* Featured: Chakravyuha */}
+        {/* Cultural night marquee */}
+        <div className="mb-12 grid gap-6 md:grid-cols-[1.2fr_1fr] md:items-stretch">
+          <TiltImage
+            src={culturalsAsset.url}
+            alt="Amrita students performing at the annual cultural night"
+            className="aspect-[4/3] md:aspect-auto border hairline shadow-xl"
+            overlay={
+              <div className="flex w-full items-end p-5 md:p-7">
+                <div>
+                  <div className="inline-flex items-center gap-2 rounded-full bg-background/85 px-3 py-1 text-[10px] uppercase tracking-[0.22em] text-foreground backdrop-blur">
+                    <span className="h-1.5 w-1.5 rounded-full" style={{ background: "var(--saffron)" }} />
+                    Anokha · Cultural Night
+                  </div>
+                </div>
+              </div>
+            }
+          />
+          <div className="flex flex-col justify-center rounded-3xl border hairline bg-background p-7 md:p-9">
+            <div className="text-[11px] uppercase tracking-[0.22em] text-primary">Campus culture, alive</div>
+            <h3 className="mt-3 font-serif text-2xl text-foreground md:text-3xl">
+              Stage lights, late-night rehearsals, the kind of friendships only college makes.
+            </h3>
+            <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+              Dance, music, drama, fashion, photography — Amrita Amaravati's clubs
+              put on full-house events all year. Auditions open within your first
+              two months. Show up, even if you've never performed before.
+            </p>
+          </div>
+        </div>
+
+
         <article className="relative overflow-hidden rounded-3xl border hairline bg-background p-8 md:p-12">
           <div className="absolute inset-0 pointer-events-none opacity-[0.04]">
             <div className="absolute -right-20 -top-20 h-72 w-72 rounded-full bg-primary" />
